@@ -57503,7 +57503,7 @@ body:not(.scrolling) .leadership_item:hover .thumb {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(5, 5, 5, .5);
+    background-color: rgba(0, 137, 54, 1);
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
@@ -57537,6 +57537,10 @@ body:not(.scrolling) .leadership_item:hover .thumb {
 .miles_item.active::before {
     opacity: 1;
     visibility: visible
+}
+
+.miles_item:hover img{
+     filter: brightness(0) invert(1);
 }
 
 .miles_item:hover .content h5,
@@ -57902,3 +57906,8 @@ body:not(.scrolling) .leadership_item:hover .thumb {
 footer .logo__img{
     width: 100px;
 }
+
+.miles_item img{
+    width: 72px;
+}
+
