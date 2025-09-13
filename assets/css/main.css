@@ -55075,7 +55075,15 @@ body {
 }
 
 .footer_link {
-    color: #fff
+    color: #fff;
+}
+.contact-info a{
+    margin-bottom: 10px;
+
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
 }
 
 .footer_link:hover {
@@ -55878,9 +55886,7 @@ body {
     transform: translate(-50%, 100%)
 }
 
-.brand-logo img:first-child {
-    opacity: .4
-}
+
 
 .brand-logo:hover img:first-child {
     -webkit-transform: translateY(-120%);
@@ -57886,5 +57892,13 @@ body:not(.scrolling) .leadership_item:hover .thumb {
 }
 
 .preloader-icon{
+    width: 100px;
+}
+
+.service-img{
+    border-radius: 20px 0 0 0;
+}
+
+footer .logo__img{
     width: 100px;
 }
